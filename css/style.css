@@ -1,0 +1,231 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #829AC9;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+div {
+    margin: 0 auto;
+}
+
+header nav , footer nav{
+    gap: 19px;
+    height: 79px;   
+    background-color: #477CE6;
+    justify-content: center;
+    display: flex;
+    padding: 20px 105px;
+    align-items: center;
+    color: #fff;
+}
+
+footer nav{
+    font-weight: medium;
+}
+
+ footer a:link, footer a:visited {
+    font-size: 24px;
+    text-decoration: underline;
+    color: #fff;
+    background-color: transparent;
+}
+footer a:hover, footer a:active {
+    font-size: 24px;
+    text-decoration: underline;
+    color: #aaafff;
+}
+
+header nav a{
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav a:hover {
+    text-decoration-line: underline;
+    color: #aaafff;
+}
+
+#rectangle {
+    width: 3px;
+    height: 37px;
+    background: #fff;
+}
+
+.hero img {
+    margin-bottom: 32px;
+}
+
+.hero div, .finale div {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero div div, .finale .finalefin {
+    max-width: 800px;
+}
+
+.hero h1, .finale h2 {
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 72px;
+    font-weight: 900;
+    color: #fff;
+    
+}
+
+.hero p {
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.finale p {
+    margin-bottom: 184px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.immaginetesto {
+    margin: 0;
+    display: flex;
+    gap: 29px;
+    justify-content: center;
+}
+
+.primo h2, .secondo h2, .terzo h2{
+    margin: 0;
+    margin-bottom: 32px;
+    font-size: 72px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.primo div.procodoi, .secondo div.procodoi, .terzo div.procodoi {
+    max-width: 1000px;
+    margin: 0, auto;
+}
+
+.immaginetesto .immagine {
+    width: 33%;
+}
+
+.immaginetesto .testotesto {
+    width: 66%;
+}
+
+
+.parteuno{
+    padding-bottom: 40px;
+}
+
+.partedue{
+    padding-bottom: 88px;
+}
+
+.primo p, .secondo p, .terzo p{
+    margin: 0;
+    font-size: 38px;
+    color: #fff;
+}
+
+.terzo .procodoi .immaginetesto .immagine .imgsup {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 600px) {
+
+    header nav , footer nav{
+        gap: 10px;
+        height: 45px;   
+        padding: 10px 50px;
+        color: #fff;
+    }
+    
+    footer a:link, footer a:visited {
+        font-size: 14px;
+    }
+    footer a:hover, footer a:active {
+        font-size: 14px;
+    }
+
+    header nav a{
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    #rectangle {
+        height: 25px;
+    }
+    
+    .hero img {
+        margin-bottom: 16px;
+    }
+
+    .hero h1, .finale h2 {
+        margin: 0;
+        margin-bottom: 12px;
+        font-size: 36px;     
+    }
+    
+    .hero p {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    
+    .finale p {
+        margin-bottom: 92px;
+        font-size: 16px;
+    }
+    
+    .immaginetesto {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    
+    .primo h2, .secondo h2, .terzo h2{
+        margin: 0;
+        margin-bottom: 16px;
+        font-size: 36px;
+    }
+
+    .immaginetesto .immagine, .immaginetesto .testotesto {
+        width: 100%;
+    }
+
+    .terzo .procodoi .immaginetesto .immagine {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+
+    }
+    
+    .parteuno{
+        padding-bottom: 20px;
+    }
+    
+    .partedue{
+        padding-bottom: 44px;
+    }
+    
+    .primo p, .secondo p, .terzo p{
+        font-size: 19px;
+    }
+    
+    .terzo .procodoi .immaginetesto .immagine .imgsup {
+        margin-bottom: 12px;
+    }
+
+}
