@@ -208,8 +208,6 @@ header nav a:hover {
     .terzo .procodoi .immaginetesto .immagine {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 25px;
-
     }
     
     .parteuno{
