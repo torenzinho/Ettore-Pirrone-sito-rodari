@@ -191,6 +191,9 @@ header nav a:hover {
         height: 25px;
     }
     
+    .hero {
+        margin-bottom: 100px;
+    }
     .hero img {
         margin-bottom: 16px;
     }
@@ -246,6 +249,10 @@ header nav a:hover {
     
     .terzo .procodoi .immaginetesto .immagine .imgsup {
         margin-bottom: 12px;
+    }
+
+    .finale {
+        margin-top: 100px;
     }
 
 }
