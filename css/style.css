@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth;
+    scroll-padding: 120px;
+
 }
 
 body{
@@ -17,10 +19,29 @@ div {
     margin: 0 auto;
 }
 
-header nav , footer nav{
+header nav {
+    justify-content: center;
+    display: flex;
+}
+
+footer nav{
+    background-color: #477CE6;
     gap: 19px;
     height: 79px;   
+    justify-content: center;
+    display: flex;
+    padding: 20px 105px;
+    align-items: center;
+    color: #fff;
+}
+
+header .prova {
+    width: 100%;
+    margin: 0;
+    position: fixed;
     background-color: #477CE6;
+    gap: 19px;
+    height: 79px;   
     justify-content: center;
     display: flex;
     padding: 20px 105px;
@@ -66,12 +87,17 @@ header nav a:hover {
     margin-bottom: 32px;
 }
 
+.hero .foto1 {
+    padding-top: 119px;
+}
+
+
 .hero div, .finale div {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.hero div div, .finale .finalefin {
+.hero .finalefin, .finale .finalefin {
     max-width: 800px;
 }
 
@@ -100,9 +126,9 @@ header nav a:hover {
 
 .immaginetesto {
     margin: 0;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     gap: 29px;
-    justify-content: center;
 }
 
 .primo h2, .secondo h2, .terzo h2{
@@ -117,15 +143,6 @@ header nav a:hover {
     max-width: 1000px;
     margin: 0, auto;
 }
-
-.immaginetesto .immagine {
-    width: 33%;
-}
-
-.immaginetesto .testotesto {
-    width: 66%;
-}
-
 
 .parteuno{
     padding-bottom: 40px;
@@ -147,10 +164,14 @@ header nav a:hover {
 
 @media (max-width: 600px) {
 
-    header nav , footer nav{
+    html {
+        scroll-padding: 45px;
+    }
+
+    header div.prova , footer nav{
         gap: 10px;
         height: 45px;   
-        padding: 10px 50px;
+        padding: 0px 50px;
         color: #fff;
     }
     
@@ -191,6 +212,7 @@ header nav a:hover {
     }
     
     .immaginetesto {
+        flex-direction: column-reverse;
       display: grid;
       grid-template-columns: 1fr;
     }
