@@ -234,13 +234,12 @@ margin-bottom: 80px;
         font-size: 36px;
     }
 
-    .immaginetesto .immagine, .immaginetesto .testotesto {
-        width: 100%;
-    }
+    
 
     .terzo .procodoi .immaginetesto .immagine {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 12px;
     }
     
     .parteuno{
@@ -255,7 +254,7 @@ margin-bottom: 80px;
         font-size: 19px;
     }
     
-    .terzo .procodoi .immaginetesto .immagine .imgsup {
+.imgsup {
         margin-bottom: 0px;
     }
 
