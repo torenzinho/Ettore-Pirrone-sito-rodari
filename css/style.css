@@ -198,6 +198,10 @@ header nav a:hover {
         margin-bottom: 16px;
     }
 
+    .hero .foto1 {
+        padding-top: 43px;
+    }
+
     .hero h1, .finale h2 {
         margin: 0;
         margin-bottom: 12px;
