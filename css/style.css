@@ -33,6 +33,7 @@ footer nav{
     padding: 20px 105px;
     align-items: center;
     color: #fff;
+    font-weight: medium;
 }
 
 header .prova {
@@ -47,10 +48,6 @@ header .prova {
     padding: 20px 105px;
     align-items: center;
     color: #fff;
-}
-
-footer nav{
-    font-weight: medium;
 }
 
  footer a:link, footer a:visited {
@@ -166,11 +163,16 @@ margin-bottom: 80px;
     margin-bottom: 25px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 
     html {
         scroll-padding: 45px;
     }
+
+    .hero .titolo, .hero .finalefin, .finale, .primo, .secondo, .terzo {
+    margin: 0px 20px;
+}
+
 
     header div.prova , footer nav{
         gap: 10px;
@@ -224,8 +226,8 @@ margin-bottom: 80px;
     
     .immaginetesto {
         flex-direction: column-reverse;
-      display: grid;
-      grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 1fr;
     }
     
     .primo h2, .secondo h2, .terzo h2{
@@ -234,7 +236,9 @@ margin-bottom: 80px;
         font-size: 36px;
     }
 
-    
+    .primo, .secondo, .terzo{
+        margin-bottom: 50px;
+        }
 
     .terzo .procodoi .immaginetesto .immagine {
         display: grid;
@@ -250,7 +254,7 @@ margin-bottom: 80px;
         padding-bottom: 44px;
     }
     
-    .primo p, .secondo p, .terzo p{
+    .hero .prova, .primo p, .secondo p, .terzo p{
         font-size: 19px;
     }
     
